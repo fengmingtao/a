@@ -2,7 +2,43 @@
     {
         "DeviceName": "/dev/sdh",
         "Ebs": {
-            "VolumeSize": 16384
+                "VolumeType": "st1",
+                "VolumeSize": 16384
+        }
+    },
+	{
+        "DeviceName": "/dev/sdi",
+        "Ebs": {
+                "VolumeType": "st1",
+                "VolumeSize": 16384
+        }
+    },
+	{
+        "DeviceName": "/dev/sdj",
+        "Ebs": {
+                "VolumeType": "st1",
+                "VolumeSize": 16384
+        }
+    },
+	{
+        "DeviceName": "/dev/sdk",
+        "Ebs": {
+                "VolumeType": "sc1",
+                "VolumeSize": 16384
+        }
+    },
+	{
+        "DeviceName": "/dev/sdl",
+        "Ebs": {
+                "VolumeType": "sc1",
+                "VolumeSize": 16384
+        }
+    },
+	{
+        "DeviceName": "/dev/sdm",
+        "Ebs": {
+                "VolumeType": "sc1",
+                "VolumeSize": 16384
         }
     }
 ]
